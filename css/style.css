@@ -821,6 +821,20 @@ a:hover {
     height: auto;
 }
 
+/* estou AQUI */
+.footerEndereco{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+
+    color: #fff;
+    
+    border: solid #ff0000 1px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .footer_logo {
     width: 100%;
     text-align: center;
