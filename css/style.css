@@ -200,6 +200,7 @@ button {
 }
 
 .layout_padding {
+    margin-top: 40px;
     padding-top: 90px;
     padding-bottom: 0px;
 }
@@ -282,8 +283,20 @@ button {
 
 
 /* logo section end */
+/* topo img */
+.topoImg{
+    /* position: fixed; */
 
+    width: 28px;
+position: fixed;
+right: 15px;
+top: 90%;
 
+border-radius: 80px;
+
+    
+}
+/* fim topo img */
 /* header section start */
 
 .header_section {
@@ -482,7 +495,7 @@ a:hover {
     float: left;
     padding-bottom: 60px;
 }
-
+/*  aqui */
 .banner_taital {
     width: 100%;
     font-size: 60px;
@@ -490,6 +503,8 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+
+  text-shadow: 10px 10px 10px #000;
 }
 
 .buynow_bt {
@@ -562,6 +577,8 @@ a:hover {
     color: #30302e;
     text-align: center;
     font-weight: bold;
+
+    text-shadow: 1px 1px 5px #ffad31;
 }
 
 .fashion_section_2 {
@@ -687,12 +704,12 @@ a:hover {
 }
 
 #electronic_main_slider a.carousel-control-next {
-    right: 615px;
+    right: 550px;
     top: 105%;
 }
 
 #electronic_main_slider a.carousel-control-prev {
-    left: 615px;
+    left: 550px;
     top: 105%;
 }
 
